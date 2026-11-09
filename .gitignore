@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+
+# AI Models
+models/**/*.onnx
+models/*.onnx
+
+# Output
+output/*
+
+# Sensitive files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
